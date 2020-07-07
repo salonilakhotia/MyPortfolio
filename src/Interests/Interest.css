@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.topic{
+    font-family: 'Sahitya', serif;
+    color: white;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.Interest-topic{
+   text-align: center;
+}
+.content{
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.row{
+    justify-content: space-evenly;
+}
+.image{
+    padding-top: 10px;
+}
+.interest-img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}

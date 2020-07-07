@@ -1,0 +1,28 @@
+.nav-wrapper{
+    font-family: 'Sahitya', serif;
+    padding-top: 5px;
+
+}
+.link{
+    font-size: 20px;
+    transition-property: font-size;
+}
+
+.link:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+ 
+}
+
+.link:focus{
+    color:chartreuse;
+}
+
+.nav-wrapper{
+    padding-right: 2%;
+}
+
+.icon{
+    cursor: pointer;
+}

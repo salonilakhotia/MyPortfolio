@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+.project-text{
+    color: aliceblue;
+    font-size: medium;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.tech-icons{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.tech-icons ul {
+ 
+    justify-items: center;
+    align-self: center;
+    align-items: center;
+}
+
+.tech-icons ul li{
+    display : inline-block;
+}
+
+.tech-icon{ 
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.tech-icon:hover{
+   transform: rotate(360deg) ;
+   transition: all 1s;
+   cursor: pointer;
+}
+
+.project-row{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.card{
+    margin: 20px;
+    border: none;   
+    border-radius: 20px;
+}
+
+.card .card-image .card-title{
+    padding: 10px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-family: 'Sahitya', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.card-content{
+    padding:2px;
+    height: 140px;
+}
+   
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
+    color: black;
+    transition: font-bold .3s ease;
+    text-decoration: none;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover{
+    color: blue ;
+    font-weight: 500;
+    transition: color .1s ease;
+}
+
+.footer-project{
+    background-color: rgb(105,105,105);
+    opacity: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Sahitya', serif;
+    letter-spacing: 1px;
+}

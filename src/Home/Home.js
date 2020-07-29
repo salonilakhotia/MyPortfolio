@@ -4,6 +4,7 @@ import facebook from "./photos/facebook.svg";
 import github from "./photos/github.svg";
 import instagram from "./photos/instagram.svg";
 import linkedin from "./photos/linkedin.svg";
+import Footer from '../Footer/Footer';
 import './home.css';
 
 function Home(){
@@ -12,7 +13,7 @@ function Home(){
         <div className="home">
           <div className="Hometext">
               <img className = "Image" src={Background} />
-              <div className="text name">Saloni Lakhotia</div><br></br>
+              <div className="home-text name">Saloni Lakhotia</div><br></br>
               <div className="All_Icons">
               <ul>
                 <li><a href="https://github.com/salonilakhotia"><img className="icon" src={github} alt="icon"></img></a></li>
@@ -22,11 +23,9 @@ function Home(){
               </ul>
               </div>
           </div>
-          <div className= "text text2" >Hey!!! welcome to home page!!!.Hey!!! welcome to home page!!!.</div>
+          <div className= "home-text text2" >Hey!!! welcome to home page!!!.Hey!!! welcome to home page!!!.</div>
       </div>
-      <div className="footer">
-          Copyright @ SL
-      </div>
+      <Footer />
       </div>
     );
 }

@@ -1,0 +1,12 @@
+
+.footer{
+    background-color: rgb(105,105,105);
+    opacity: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Sahitya', serif;
+    letter-spacing: 1px;
+}

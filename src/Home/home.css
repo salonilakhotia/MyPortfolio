@@ -54,7 +54,7 @@
     color: blue;
 }
 
-.text{  
+.home-text{  
    
     position: absolute;
     top: 90%;
@@ -69,7 +69,7 @@
     cursor : pointer;
 }
 
-.text:hover{
+.home-text:hover{
     color:black;    
 }
 
@@ -99,7 +99,6 @@
        height: auto;
    }
 }
-
  Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (max-width: 792px) {
     .name{
@@ -122,10 +121,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
-
 }
-
  Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
-
 }*/

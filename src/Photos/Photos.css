@@ -1,0 +1,86 @@
+.background{
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 34px;
+}
+
+/* .box{
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border: 1px;
+    box-shadow: 3px 3px 5px 6px white;
+} */
+
+.slideshow{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-item{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    animation: cycleImages 15s infinite; 
+}
+
+
+.slideshow-item:nth-child(1){
+    animation-delay: 0s;
+}
+
+.slideshow-item:nth-child(2){
+    animation-delay: 5s;
+}
+
+.slideshow-item:nth-child(3){
+    animation-delay: 10s;
+}
+
+.slideshow-item img{
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.slideshow-item-text{
+    opacity : 70%;
+    width: 450px;
+    position: absolute;
+    max-width: 50%;
+    top: 45%;
+    left: 5%;
+    padding: 3rem 5rem;
+    color: red;
+    transform: translateY(-50%);
+    background-color: blue;
+    font-size: large;
+}
+
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+
+
+.footer{
+    background-color: rgb(105,105,105);
+    opacity: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Sahitya', serif;
+    letter-spacing: 1px;
+}

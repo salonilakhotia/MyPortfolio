@@ -5,7 +5,8 @@ import Projects from './Projects/Projects';
 import Interests from './Interests/Interest';
 import Photos from './Photos/Photos';
 import AboutMe from './AboutMe/AboutMe';
-import NavBar from './NavBar/Navbar'
+import NavBar from './NavBar/Navbar';
+import Footer from './Footer/Footer';
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
 
 
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
     <div>
       <NavBar />
+     
     </div>
     <Switch>
       <Route exact path = '/' component={Home} />
@@ -23,6 +25,7 @@ function App() {
       <Route path = '/AboutMe' component={AboutMe} />
     </Switch>
     </BrowserRouter>
+    
     );
 }
 

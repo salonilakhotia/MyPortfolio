@@ -9,16 +9,15 @@ body{
     text-align: center;
 }
 
-.tech-icons{
+/* .tech-icons{
     padding-left: 250px;
     padding-right: 250px;
-}
+} */
 
-.tech-icons ul {
- 
-    justify-items: center;
-    align-self: center;
-    align-items: center;
+.tech-icons {
+    margin:0 auto; 
+      text-align:center;
+      display:table;
 }
 
 .tech-icons ul li{
@@ -41,6 +40,7 @@ body{
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .card{
     margin: 20px;
     border: none;   

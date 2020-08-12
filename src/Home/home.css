@@ -1,6 +1,60 @@
 .home{
     background-size: cover;
-    background-color:  black;
+    background-color: black;
+    font-family: 'Sahitya', serif;
+    width: 1498px;
+    position: absolute;
+}
+
+.outer-box{
+    padding: 80px 140px 80px 140px;
+    
+}
+
+.col{
+   height : 460px;
+   width: 460px;  
+}
+
+.Image{
+    background-image: url('../Home/photos/IMG20191201174113.jpg');
+    background-size: cover;
+    border-radius : 50%;
+    height : 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.intro{
+    padding-top: 90px;
+    text-align: left;
+    color: indigo;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.icon{
+    color: grey;
+    margin-right: 30px;
+    height:45px;
+    width: 45px;
+
+}
+
+.description{
+    padding: 150px 100px;
+}
+
+/* 
+.home{
+    background-size: cover;
+    background-color: black;
     height: 570px;
     font-family: 'Sahitya', serif;
 }
@@ -78,50 +132,4 @@
     font-weight: larger;
     color: white;
     opacity: 80%;
-}
-
-.footer{
-    background-color: rgb(105,105,105);
-    opacity: 70%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: medium;
-    color: aliceblue;
-    text-align: center;
-    font-family: 'Sahitya', serif;
-    letter-spacing: 1px;
-}
-
-
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) {
-   .icon{
-       height: auto;
-   }
-}
- Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (max-width: 792px) {
-    .name{
-        font-size: 40px;
-    }
-    .text{
-        top:90%;
-    }
-    .text2{
-        color: white;
-        padding-top: 80px;
-    }
-    .Image{
-        padding: 0px;
-    }
-    .All_Icons ul li{
-        color:black;
-    }
 } */
-
-/* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {
-}
- Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
-}*/

@@ -9,8 +9,48 @@ import './home.css';
 
 function Home(){
     return(
-        <div>
         <div className="home">
+        <div>
+            <div className="outer-box row">
+                <div className="col">
+                <div className="Image"><img className = "Image" src={Background} /> </div>
+                </div>
+                <div className="col">
+                <div  className="intro"><h1>Saloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio design.</h1>
+                </div>
+                 <div className="icons">
+                    <a href="https://github.com/salonilakhotia"><img className="icon" src={github} alt="icon"></img></a>
+                    <a href="https://www.instagram.com/saloni_lakhotia_/"><img className="icon" src={instagram} alt="icon"></img></a>
+                    <a href="https://www.facebook.com/saloni.lakhotia.242"><img className="icon" src={facebook} alt="icon"></img></a>
+                    <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175"><img className="icon" src={linkedin} alt="icon"></img></a>
+                 </div>
+                </div>
+            </div>
+
+            <div className="description">
+                <h1>Saloni Lakhotia</h1>
+                <h3>Saloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio designSaloni Lakhotia ...Hey..trhis is my pertfolio design.
+                     Saloni Lakhotia ...Hey..trhis is my pertfolio design</h3>
+            </div>
+            <Footer />
+            </div>
+        </div>
+    );
+}
+
+export default Home
+
+/* 
+
+<div className="home">
           <div className="Hometext">
               <img className = "Image" src={Background} />
               <div className="home-text name">Saloni Lakhotia</div><br></br>
@@ -21,13 +61,10 @@ function Home(){
                 <li><a href="https://www.facebook.com/saloni.lakhotia.242"><img className="icon" src={facebook} alt="icon"></img></a></li>
                 <li><a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175"><img className="icon" src={linkedin} alt="icon"></img></a></li>
               </ul>
-              </div>
+              </div> //all_icons
           </div>
           <div className= "home-text text2" >Hey!!! welcome to home page!!!.Hey!!! welcome to home page!!!.</div>
-      </div>
-      <Footer />
-      </div>
-    );
-}
-
-export default Home
+        </div>
+        <Footer />
+</div>
+*/

@@ -1,53 +1,59 @@
-*{
-    margin:0;
+body{
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-
-.image{
     text-align: center;
-}
-svg{
-    height: 85vh;
-    width: 100%;
+    background-color: black;
+    font-family: 'Sahitya', serif;
 }
 
-#brush{
-    animation: move 1.5s linear;
-    animation-iteration-count: infinite;
-    transform-origin: center;
-    transform-box: fill-box;
+.contact-title{
+    margin-top: 100px;
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
 }
 
-@keyframes move {
-    0%{
-        transform: rotateZ(0deg);
-    }
-    40%{
-        transform: rotateZ(-18deg);
-    }
-    80%{
-        transform: rotateZ(0deg);
-    }
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
 }
 
-#plate{
-    animation: palatte 2s linear;
-    animation-iteration-count: infinite;
-    transform-origin: center;
-    transform-box: fill-box;
+.contact-title h2{
+    font-size: 16px;
 }
 
-@keyframes palatte {
-    0%{
-        transform: rotateX(0deg);
-    }
-    40%{
-        transform: rotateX(58deg);
-    }
-    80%{
-        transform: rotateX(0deg);
-    }
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
 }
 
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline : none;
+    border-bottom:  1px solid gray;
+    color : white;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+
+input{
+    height : 45px;
+}
+
+form .submit{
+    background-color: aqua;
+    border-color: transparent;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+fommr .submit:hover{
+    background-color: blueviolet;
+}

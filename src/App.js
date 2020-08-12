@@ -6,8 +6,8 @@ import Interests from './Interests/Interest';
 import Photos from './Photos/Photos';
 import AboutMe from './AboutMe/AboutMe';
 import NavBar from './NavBar/Navbar';
-import Footer from './Footer/Footer';
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
+import Achievements from './Achievments/Achievements';
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Route path = '/Interests' component={Interests} />
       <Route path = '/Photos' component={Photos} />
       <Route path = '/AboutMe' component={AboutMe} />
+      <Route path = '/Achievements' component={Achievements} />
     </Switch>
     </BrowserRouter>
     

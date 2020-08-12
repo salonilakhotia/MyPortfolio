@@ -21,7 +21,7 @@ import Background from '../Home/photos/IMG20191201174113.jpg';
 function Projects(){
     return(
       <div>
-      <div>
+      <div className="whole">
       <div className="project-text">These are some of the projects made by me while learning!!</div>
       <div className="tech-icons row">
 {/* Dart, flutter, firebase, illustartor, adobe xd, figma, vscode, java, react, js, */}
@@ -44,7 +44,7 @@ function Projects(){
 {/*   chatapp, portfolio, impNotes, expenses, githubAPI , TodoFlutter,hospitalmanagement           */}
       </div>
           <div className="row project-row">
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src={Background} alt="project-image" />
@@ -61,7 +61,7 @@ function Projects(){
             </div>
             
 
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src= {Background} alt="project-image" />
@@ -77,7 +77,7 @@ function Projects(){
               </div>
             </div>
 
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src={Background} />
@@ -93,7 +93,7 @@ function Projects(){
               </div>
             </div>
 
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src= {Background} alt="project-image" />
@@ -110,7 +110,7 @@ function Projects(){
 
           </div>            
             <div className="row project-row">
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src= {Background} alt="project-image" />
@@ -125,7 +125,7 @@ function Projects(){
               </div>
             </div>
 
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src= {Background} alt="project-image" />
@@ -140,7 +140,7 @@ function Projects(){
               </div>
             </div>
 
-            <div className="col s12 m7">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
                   <img src={Background} />
@@ -156,7 +156,6 @@ function Projects(){
             </div>
             </div>
           </div>
-
           <Footer />
       </div>
     );

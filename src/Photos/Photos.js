@@ -13,11 +13,10 @@ function Photos(){
         <div className="box">
             <div className="slideshow">
                 <div className="slideshow-item">
-                        <AboutMe />
+                       <img src={image2} />
                     <div className="slideshow-item-text">
                         <h2>I am a web developer</h2>
                     </div>
-                    
                 </div>
     
                 <div className="slideshow-item">

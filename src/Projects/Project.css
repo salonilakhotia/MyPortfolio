@@ -1,18 +1,16 @@
 body{
-    background-color: black;
+     background-color: black; 
 }
 
+.whole{
+    padding-bottom: 100px;
+}
 .project-text{
     color: aliceblue;
     font-size: medium;
     padding-top: 12px;
     text-align: center;
 }
-
-/* .tech-icons{
-    padding-left: 250px;
-    padding-right: 250px;
-} */
 
 .tech-icons {
     margin:0 auto; 
@@ -73,14 +71,8 @@ body{
     transition: color .1s ease;
 }
 
-.footer-project{
-    background-color: rgb(105,105,105);
-    opacity: 70%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: medium;
-    color: aliceblue;
-    text-align: center;
-    font-family: 'Sahitya', serif;
-    letter-spacing: 1px;
+@media screen and (min-width : 320px){
+    .card{
+        width: 100%;
+    }
 }

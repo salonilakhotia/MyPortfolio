@@ -1,28 +1,28 @@
 .nav-wrapper{
     font-family: 'Sahitya', serif;
-    padding-top: 5px;
-
-}
-.link{
-    font-size: 20px;
-    transition-property: font-size;
-}
-
-.link:hover{
-    text-decoration: none;
-    font-size: 25px;
-    color: red;
- 
-}
-
-.link:focus{
-    color:chartreuse;
-}
-
-.nav-wrapper{
+    background-repeat: repeat;
+    background-color: #181818;
+    background-size: 300px 65px;
     padding-right: 2%;
+    position: relative;  
+}
+
+.link{
+    font-size: 22px;
+    transition: all ease;
 }
 
 .icon{
     cursor: pointer;
 }
+ 
+.link:hover{
+    text-decoration: none;
+    color :  pink;
+    border-bottom: 1px solid pink;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.color{
+    color:white;
+}
+

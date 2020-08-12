@@ -3,8 +3,8 @@ import './Footer.css';
 
 function Footer(){
     return(
-      <div>
-        <div className="footer-project">
+      <div className="top-space">
+        <div className="footer">
            Copyright @ SL
           </div>
       </div>

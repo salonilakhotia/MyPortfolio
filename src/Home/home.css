@@ -2,7 +2,7 @@
     background-size: cover;
     background-color: black;
     font-family: 'Sahitya', serif;
-    width: 1498px;
+    width: 100%;
     position: absolute;
 }
 
@@ -40,17 +40,33 @@
 }
 
 .icon{
-    color: grey;
     margin-right: 30px;
     height:45px;
     width: 45px;
-
 }
+
 
 .description{
     padding: 150px 100px;
 }
 
+.Heading{
+    font-weight: 1000;
+    font-size: 80px;
+    color: white;
+}
+
+.subHeading{
+    font-size: 40px;
+    color: indigo;
+    font-weight: bolder;
+}
+
+.description{
+    font-size : 20px;
+    color: pink;
+    font-weight: medium;
+}
 /* 
 .home{
     background-size: cover;

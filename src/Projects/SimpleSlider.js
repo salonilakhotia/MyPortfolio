@@ -23,8 +23,7 @@ function SimpleSlider(){
             </div>
           </div>
         </div>
-        <Footer />
-        </div>
+     </div>
     );
 }
 

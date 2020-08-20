@@ -17,6 +17,7 @@ import mysql from "./Project Photos/js.png";
 import js from "./Project Photos/mysql.png";
 
 import Background from '../Home/photos/IMG20191201174113.jpg';
+import SimpleSlider from './SimpleSlider';
 
 function Projects(){
     return(
@@ -41,6 +42,8 @@ function Projects(){
         <li><img className="tech-icon" src={VSCode} alt="icon" /></li>
         <li><img className="tech-icon" src={mysql} alt="icon" /></li>
       </ul>
+
+
 {/*   chatapp, portfolio, impNotes, expenses, githubAPI , TodoFlutter,hospitalmanagement           */}
       </div>
           <div className="row project-row">

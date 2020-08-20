@@ -9,3 +9,26 @@
     font-family: 'Sahitya', serif;
     letter-spacing: 1px;
 }
+
+.fa.fa-heart{
+    color: red;
+    font-size: 20px;
+}
+
+.footer-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: text 2s 1;
+}
+
+@keyframes text{
+    0%{
+        letter-spacing: 2px;
+    }
+    50%{
+        letter-spacing: 20px;
+    }
+    100%{
+        letter-spacing: 2px;
+    }
+}
+

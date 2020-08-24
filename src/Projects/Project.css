@@ -45,7 +45,10 @@ body{
     border-radius: 20px;
 }
 
+
+
 .card .card-image .card-title{
+    color : black;  
     padding: 10px;
     padding-left: 15px;
     letter-spacing: 1px;
@@ -55,9 +58,12 @@ body{
     margin: 0px;
 }
 
+
 .card-content{
     padding:2px;
     height: 140px;
+    font-size: 15px;
+    font-weight: medium;
 }
    
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){
@@ -71,8 +77,20 @@ body{
     transition: color .1s ease;
 }
 
+.card-action{
+    font-weight: bolder;
+}
+
+.card-action:hover{
+    background-color: lightskyblue;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
 @media screen and (min-width : 320px){
     .card{
         width: 100%;
     }
 }
+

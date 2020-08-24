@@ -1,4 +1,4 @@
-.nav-wrapper{
+ .nav-wrapper{
     font-family: 'Sahitya', serif;
     background-repeat: repeat;
     background-color: #181818;
@@ -11,9 +11,11 @@
     font-size: 22px;
     transition: all ease;
 }
+
 .navbar-toggler{
     color: blue;
 }
+
 .icon{
     cursor: pointer;
     color: blue;
@@ -29,3 +31,8 @@
 .color{
     color:white;
 }
+
+.collapse{
+    position: relative;
+    
+} 

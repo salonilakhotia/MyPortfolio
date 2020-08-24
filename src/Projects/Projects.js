@@ -16,8 +16,14 @@ import Bootstrap from "./Project Photos/bootstrap4.png";
 import mysql from "./Project Photos/js.png";
 import js from "./Project Photos/mysql.png";
 
+import ChatApp from './Project Photos/ChatApp.jpg';
+import Expenses from './Project Photos/Expenses.jpg';
+import GitApiApp from './Project Photos/GitApiApp.jpg';
+import ImpNotes from './Project Photos/impNotes.jpg';
+import Design from './Project Photos/Design.jpg';
+import FirstWeb from './Project Photos/FirstWeb.jpg';
 import Background from '../Home/photos/IMG20191201174113.jpg';
-import SimpleSlider from './SimpleSlider';
+
 
 function Projects(){
     return(
@@ -47,10 +53,10 @@ function Projects(){
 {/*   chatapp, portfolio, impNotes, expenses, githubAPI , TodoFlutter,hospitalmanagement           */}
       </div>
           <div className="row project-row">
-            <div className="col">
+            <div className="col-sxs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
-                  <img src={Background} alt="project-image" />
+                  <img src={ChatApp} alt="project-image" />
                   <span className="card-title">CHAT APP</span>
                 </div>
                 <div className="card-content">
@@ -64,26 +70,105 @@ function Projects(){
             </div>
             
 
-            <div className="col">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
-                  <img src= {Background} alt="project-image" />
-                  <span className="card-title">IMP NOTES</span>
+                  <img src= {ImpNotes} alt="project-image" />
+                  <span className="card-title" >IMP NOTES</span>
                 </div>
                 <div className="card-content">
                   <p>React based website which has an option of settingthe note priority wise
                   . One can delete or add the notes.</p>
                 </div>
                 <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/ImpNotes">Github Repo Link</a>
+                  <a href="https://github.com/salonilakhotia/ImpNotes" >Github Repo Link</a>
                 </div>
               </div>
             </div>
 
-            <div className="col">
+            <div className=" col-xs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
-                  <img src={Background} />
+                  <img src={Design}  alt="project-image" />
+                  <span className="card-title" alt="project-image" >DESIGNING</span>
+                </div>
+                <div className="card-content">
+                  <p>The below links contain all the UI/UX designs done by my till now. </p>
+                </div>
+                <div className="card-action">
+                  <a href="https://github.com/salonilakhotia/first_website">Drive Link</a>
+                </div>
+              </div>
+            </div>
+
+            
+            <div className=" col-xs-12 col-sm-6 col-md-3">
+              <div className="card">
+                <div className="card-image">
+                  <img src= {GitApiApp} alt="project-image" />
+                  <span className="card-title" style={{color:"white"}}>GIT API APP</span>
+                </div>
+                <div className="card-content">
+                  <p>Flutter app which shows the details of the Github Profile of an user.</p>
+                </div>
+                <div className="card-action">
+                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
+                </div>
+              </div>
+            </div>
+
+          </div>  
+
+            <div className="row project-row">
+            <div className=" col-xs-12 col-sm-6 col-md-3">
+              <div className="card">
+                <div className="card-image">
+                  <img src= {Background} alt="project-image" />
+                  <span className="card-title">HOSPITAL MANAGEMENT</span>
+                </div>
+                <div className="card-content">
+                  <p>Website to manage the internal workings of the hospital and make it easy for doctors, staffs and recieptionist. A team project on MERN and using MySQL.</p>
+                </div>
+                <div className="card-action">
+                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className=" col-xs-12 col-sm-6 col-md-3">
+              <div className="card">
+                <div className="card-image">
+                  <img src= {Background} alt="project-image" />
+                  <span className="card-title">PORTFOLIO</span>
+                </div>
+                <div className="card-content">
+                  <p>My own portfolio website.</p>
+                </div>
+                <div className="card-action">
+                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className=" col-xs-12 col-sm-6 col-md-3">
+              <div className="card">
+                <div className="card-image">
+                  <img src= {FirstWeb} alt="project-image" />
+                  <span className="card-title">FIRST WEBSITE</span>
+                </div>
+                <div className="card-content">
+                  <p>Designed a website using HTML and CSS. Just trying my hand in website designing.</p>
+                </div>
+                <div className="card-action">
+                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
+                </div>
+              </div>
+            </div>
+
+            <div className=" col-xs-12 col-sm-6 col-md-3">
+              <div className="card">
+                <div className="card-image">
+                  <img src={Expenses} alt="project-image" />
                   <span className="card-title" alt="project-image" >EXPENSES</span>
                 </div>
                 <div className="card-content">
@@ -96,67 +181,6 @@ function Projects(){
               </div>
             </div>
 
-            <div className="col">
-              <div className="card">
-                <div className="card-image">
-                  <img src= {Background} alt="project-image" />
-                  <span className="card-title">WEBSITE</span>
-                </div>
-                <div className="card-content">
-                  <p>Designed a website using HTML and CSS. Just trying my hand in website designing.</p>
-                </div>
-                <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
-                </div>
-              </div>
-            </div>
-
-          </div>            
-            <div className="row project-row">
-            <div className="col">
-              <div className="card">
-                <div className="card-image">
-                  <img src= {Background} alt="project-image" />
-                  <span className="card-title">WEBSITE</span>
-                </div>
-                <div className="card-content">
-                  <p>Designed a website using HTML and CSS. Just trying my hand in website designing.</p>
-                </div>
-                <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card">
-                <div className="card-image">
-                  <img src= {Background} alt="project-image" />
-                  <span className="card-title">WEBSITE</span>
-                </div>
-                <div className="card-content">
-                  <p>Designed a website using HTML and CSS. Just trying my hand in website designing.</p>
-                </div>
-                <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card">
-                <div className="card-image">
-                  <img src={Background} />
-                  <span className="card-title" alt="project-image" >FIRST WEBSITE</span>
-                </div>
-                <div className="card-content">
-                  <p>This is the first full website I made. </p>
-                </div>
-                <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/first_website">Github Repo Link</a>
-                </div>
-              </div>
-            </div>
             </div>
           </div>
           <Footer />

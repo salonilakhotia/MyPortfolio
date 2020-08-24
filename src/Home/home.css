@@ -7,8 +7,7 @@
 }
 
 .outer-box{
-    padding: 80px 140px 80px 140px;
-    
+    padding: 80px 140px 80px 140px;  
 }
 
 .col{
@@ -20,6 +19,7 @@
     background-image: url('../Home/photos/IMG20191201174113.jpg');
     background-size: cover;
     border-radius : 50%;
+    border : none;
     height : 400px;
     width: 400px;
     display: block;
@@ -45,9 +45,11 @@
     width: 45px;
 }
 
-
 .description{
-    padding: 150px 100px;
+    padding: 40px;
+    font-size : 20px;
+    color: pink;
+    font-weight: medium;
 }
 
 .Heading{
@@ -61,12 +63,81 @@
     color: indigo;
     font-weight: bolder;
 }
-
-.description{
-    font-size : 20px;
-    color: pink;
-    font-weight: medium;
+.About-Me{
+    text-align: center;
 }
+
+/* 
+.color-animation1{
+    animation : color 1s infinite;  
+}
+
+@keyframes color{
+    0%{
+        color: yellow;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: yellow;
+    }
+}
+
+.color-animation2{
+    animation : color2 1s infinite;  
+}
+
+@keyframes color2{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: blue;
+    }
+} */
+
+@media only screen and (max-device-width: 480px) {
+    /* styling for mobile browrser and smaller */
+    .outer-box{
+        width: 100%;
+        padding : 40px;
+    }
+    .Image{
+        align-self: center;
+        width: 300px;
+        height:300px;
+    }
+    .col{
+        width: 380px;
+        height: 360px;
+    }
+    .Heading{
+        font-size: 40px;
+    }
+    .subHeading{
+        font-size: 25px;
+    }
+    .icons{
+        padding-left: 100px;
+    }
+    .description{
+        padding: 50px;
+    }
+    .About-Me{
+        padding: 40px;
+    }
+}
+
+
+
+
+
+
+
 /* 
 .home{
     background-size: cover;

@@ -100,7 +100,8 @@
     }
 } */
 
-@media only screen and (max-device-width: 480px) {
+
+@media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */
     .outer-box{
         width: 100%;
@@ -119,10 +120,13 @@
         font-size: 40px;
     }
     .subHeading{
-        font-size: 25px;
+        font-size: 30px;
     }
     .icons{
         padding-left: 100px;
+        text-shadow: 2px 2px white;
+        
+        
     }
     .description{
         padding: 50px;

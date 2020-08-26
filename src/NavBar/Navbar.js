@@ -1,14 +1,35 @@
-import React from 'react'
-import { NavLink}  from 'react-router-dom'
+import React from 'react';
+
+import './SideDrawer/DrawerToggleButton';
 import './navbar.css';
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 
 
-function Navbar(){
+const Navbar = props => (
+        <header className="bar">
+            <nav className="bar__navigation black">
+                <div class="toolbar__toggle-button">
+                    <DrawerToggleButton click={props.drawerClickHandler} />
+                </div>
+                <div className="brand-logo navbar-text" >SL</div>
+                <div className="spacer" />
+                <div className="bar_navigation-items">
+                    <ul>
+                        <li><a href="/" className = "link" >Home</a></li>
+                        <li><a href="/projects" className = "link" >Projects</a></li>
+                        <li><a href="/interests" className = "link" >Interests</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+);
+export default Navbar
 
-    return(
+
+/*
 
 
-        <nav className="nav-wrapper navbar-expand-md darken-3 black navbar-static-top">
+ <nav className="nav-wrapper navbar-expand-md darken-3 black navbar-static-top">
         <div className="container">
               <div className="brand-logo navbar-text" style={{left : "5%"}}>SL</div>
               </div>
@@ -25,6 +46,5 @@ function Navbar(){
               </ul>
          </div>
      </nav>
-    );
-}
-export default Navbar
+
+*/

@@ -1,18 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Home from './Home/Home'
 import Projects from './Projects/Projects';
 import Interests from './Interests/Interest';
-import NavBar from './NavBar/Navbar';
+import Navbar from './NavBar/Navbar';
+import SideDrawer from "./NavBar/SideDrawer/SideDrawer";
+import Backdrop from "./NavBar/Backdrop/Backdrop";
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
 
   
-function App() {
+class App extends Component {
+  state = {
+    sideDrawerOpen:false
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen:false});
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  };
+
+  render() {
+    let backdrop;
+
+    if(this.state.sideDrawerOpen){
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
+    }
   return (
     <BrowserRouter>
-    <div>
-      <NavBar />
-    </div>
+     <div style={{height:"100%"}}>
+        <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+     </div>
 
     <Switch>
       <Route exact path = '/' component={Home} />
@@ -23,6 +47,7 @@ function App() {
     </BrowserRouter>
     
     );
+  }
 }
 
 export default App;

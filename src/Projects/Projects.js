@@ -53,7 +53,7 @@ function Projects(){
 {/*   chatapp, portfolio, impNotes, expenses, githubAPI , TodoFlutter,hospitalmanagement           */}
       </div>
           <div className="row project-row">
-            <div className="col-sxs-12 col-sm-6 col-md-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
                   <img src={ChatApp} alt="project-image" />
@@ -96,7 +96,7 @@ function Projects(){
                   <p>The below links contain all the UI/UX designs done by my till now. </p>
                 </div>
                 <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/first_website">Drive Link</a>
+                  <a href="https://drive.google.com/drive/folders/1fO3A93S7VIOyrgJ0y__YXS-8ex31ZX6V">Drive Link</a>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ function Projects(){
               <div className="card">
                 <div className="card-image">
                   <img src= {Background} alt="project-image" />
-                  <span className="card-title">HOSPITAL MANAGEMENT</span>
+                  <span className="card-title special-text">HOSPITAL MANAGEMENT</span>
                 </div>
                 <div className="card-content">
                   <p>Website to manage the internal workings of the hospital and make it easy for doctors, staffs and recieptionist. A team project on MERN and using MySQL.</p>
@@ -145,7 +145,7 @@ function Projects(){
                   <p>My own portfolio website.</p>
                 </div>
                 <div className="card-action">
-                  <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
+                  <a href="https://github.com/salonilakhotia/MyPortfolio">Github Repo Link</a>
                 </div>
               </div>
             </div>

@@ -1,0 +1,49 @@
+.side-drawer{
+    font-family: 'Sahitya', serif;
+    height:50%;
+    background:white;
+    position:fixed;
+    top:0;
+    left:0;
+    width:50%;
+    max-width:200px;
+    z-index:200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open{
+    transform: translateX(0);
+    height: auto;
+}
+
+.side-drawer ul{
+    height:70%;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-drawer li{
+    margin:0.5rem 5px;
+}
+
+.side-drawer a{
+    color: #521751;
+    font-size:22px;
+    text-decoration:none;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active{
+    color: pink;
+    opacity: .7;
+    background-color: indigo;
+}
+
+@media (min-width:569px){
+    .side-drawer{
+        display:none;
+    }
+}

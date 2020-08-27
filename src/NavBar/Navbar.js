@@ -16,8 +16,8 @@ const Navbar = props => (
                 <div className="bar_navigation-items">
                     <ul>
                         <li><a href="/" className = "link" >Home</a></li>
-                        <li><a href="/projects" className = "link" >Projects</a></li>
-                        <li><a href="/interests" className = "link" >Interests</a></li>
+                        <li><a href="/Projects" className = "link" >Projects</a></li>
+                        <li><a href="/Interests" className = "link" >Interests</a></li>
                     </ul>
                 </div>
             </nav>

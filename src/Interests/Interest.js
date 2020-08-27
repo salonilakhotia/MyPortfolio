@@ -1,5 +1,6 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide'
+import Header from '../NavBar/Header';
 
 import './Interest.css'
 import Footer from '../Footer/Footer';
@@ -29,6 +30,7 @@ import Stranger from './Interest-Photos/Series/strangerThings-01.jpg';
 function Interests(){
     return(
       <div>
+      <Header />
         <div className="topic">
          <div className="Interest-topic">Illustration <span role="img">💖</span> </div>
          <p className="Interest-topic content"> Creativity makes the world go round and round and round.</p>

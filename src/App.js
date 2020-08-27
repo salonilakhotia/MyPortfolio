@@ -6,46 +6,44 @@ import Interests from './Interests/Interest';
 import Navbar from './NavBar/Navbar';
 import SideDrawer from "./NavBar/SideDrawer/SideDrawer";
 import Backdrop from "./NavBar/Backdrop/Backdrop";
-import { BrowserRouter, Route , Switch} from 'react-router-dom';
+import { Route , Switch} from 'react-router-dom';
 
   
 class App extends Component {
-  state = {
-    sideDrawerOpen:false
-  };
+  // state = {
+  //   sideDrawerOpen:false
+  // };
 
-  backdropClickHandler = () => {
-    this.setState({sideDrawerOpen:false});
-  };
+  // backdropClickHandler = () => {
+  //   this.setState({sideDrawerOpen:false});
+  // };
 
-  drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {sideDrawerOpen: !prevState.sideDrawerOpen};
-    });
-  };
+  // drawerToggleClickHandler = () => {
+  //   this.setState((prevState) => {
+  //     return {sideDrawerOpen: !prevState.sideDrawerOpen};
+  //   });
+  // };
 
   render() {
-    let backdrop;
+    // let backdrop;
 
-    if(this.state.sideDrawerOpen){
-      backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
+    // if(this.state.sideDrawerOpen){
+    //   backdrop = <Backdrop click={this.backdropClickHandler} />;
+    // }
   return (
-    <BrowserRouter>
+    <Switch>
+    {/* 
      <div style={{height:"100%"}}>
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-     </div>
+     </div> */}
 
-    <Switch>
+    
       <Route exact path = '/' component={Home} />
       <Route path = '/Projects' component={Projects} />
       <Route path = '/Interests' component={Interests} />
     </Switch>
-
-    </BrowserRouter>
-    
     );
   }
 }

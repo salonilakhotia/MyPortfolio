@@ -7,11 +7,13 @@ import github from "./photos/github.svg";
 import instagram from "./photos/instagram.svg";
 import linkedin from "./photos/linkedin.svg";
 import Footer from '../Footer/Footer';
+import Header from '../NavBar/Header';
 import './home.css';
 
 function Home(){
     return(
         <div className="home">
+        <Header />
         <div>
             <div className="outer-box row">
                 <div className="col">

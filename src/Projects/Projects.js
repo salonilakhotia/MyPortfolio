@@ -1,5 +1,6 @@
 import React from 'react'
 import './Project.css';
+import Header from '../NavBar/Header';
 import Footer from '../Footer/Footer';
 import Dart from "./Project Photos/Dart.png"; 
 import Flutter from "./Project Photos/flutter.png";
@@ -28,6 +29,7 @@ import Background from '../Home/photos/IMG20191201174113.jpg';
 function Projects(){
     return(
       <div>
+      <Header />
       <div className="whole">
       <div className="project-text">These are some of the projects made by me while learning!!</div>
       <div className="tech-icons row">

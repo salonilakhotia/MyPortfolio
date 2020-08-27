@@ -17,9 +17,9 @@
 
 .footer-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: text 2s 1;
+    /* animation: text 2s 1; */
 }
-
+/* 
 @keyframes text{
     0%{
         letter-spacing: 2px;
@@ -30,5 +30,5 @@
     100%{
         letter-spacing: 2px;
     }
-}
+} */
 

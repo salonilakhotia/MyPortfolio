@@ -3,6 +3,7 @@ import React from 'react';
 import './SideDrawer/DrawerToggleButton';
 import './navbar.css';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = props => (
@@ -15,9 +16,9 @@ const Navbar = props => (
                 <div className="spacer" />
                 <div className="bar_navigation-items">
                     <ul>
-                        <li><a href="/" className = "link" >Home</a></li>
-                        <li><a href="/projects" className = "link" >Projects</a></li>
-                        <li><a href="/interests" className = "link" >Interests</a></li>
+                        <li><NavLink href="/" className = "link active  " >Home</NavLink></li>
+                        <li><NavLink href="/projects" className = "link" >Projects</NavLink></li>
+                        <li><NavLink href="/interests" className = "link" >Interests</NavLink></li>
                     </ul>
                 </div>
             </nav>

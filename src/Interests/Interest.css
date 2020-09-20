@@ -69,27 +69,3 @@ body{
         font-size: 18px;
     }
 }
-
-/* 
-.fade2::after{
-    padding: 10px;
-    content: 'Hey';
-    background-color: black;
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 300px;  
-    position: absolute;
-    top:0;
-    left:0;
-    opacity: 0;
-    transition : opacity 0.5s ease;
-}
-
-.fade2:hover::after{
-    opacity: .5;
-    cursor: pointer;
-} */
-

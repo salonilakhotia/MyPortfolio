@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-//import Flash from 'react-reveal/Flash';
 import Background from './photos/Me.jpg';
 import facebook from "./photos/facebook.svg";
 import github from "./photos/github.svg";

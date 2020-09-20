@@ -1,8 +1,7 @@
 .footer{
     background-color: rgb(105,105,105);
-    opacity: 70%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: medium;
     color: aliceblue;
     text-align: center;
@@ -10,25 +9,10 @@
     letter-spacing: 1px;
 }
 
-.fa.fa-heart{
-    color: red;
-    font-size: 20px;
-}
 
-.footer-text{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* animation: text 2s 1; */
+@media screen and (max-width: 480px){
+    /* styling for mobile browrser and smaller */
+    .footer{
+        font-size: small;
+    }
 }
-/* 
-@keyframes text{
-    0%{
-        letter-spacing: 2px;
-    }
-    50%{
-        letter-spacing: 20px;
-    }
-    100%{
-        letter-spacing: 2px;
-    }
-} */
-

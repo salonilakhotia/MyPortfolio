@@ -3,7 +3,7 @@ import './Project.css';
 import Header from '../NavBar/Header';
 import Footer from '../Footer/Footer';
 import Dart from "./Project Photos/Dart.png"; 
-import Flutter from "./Project Photos/flutter.png";
+import Flutter from "./Project Photos/flutter1.png";
 import HTML from "./Project Photos/html5.png";
 import CSS from "./Project Photos/css3.png";
 import java from "./Project Photos/java.png";
@@ -23,6 +23,8 @@ import GitApiApp from './Project Photos/GitApiApp.jpg';
 import ImpNotes from './Project Photos/impNotes.jpg';
 import Design from './Project Photos/Design.jpg';
 import FirstWeb from './Project Photos/FirstWeb.jpg';
+import Portfolio from './Project Photos/Portfolio.jpg';
+import Hospital from './Project Photos/Hospital.jpg';
 import Background from '../Home/photos/IMG20191201174113.jpg';
 
 
@@ -63,7 +65,7 @@ function Projects(){
                 </div>
                 <div className="card-content">
                   <p>This is a kind of a ChatApp which is made using Flutter and Firebase.It has a 
-                  proper login and signup feature with the settings option showing the group members details.</p>
+                  proper login and signup feature with basic settings option.</p>
                 </div>
                 <div className="card-action">
                   <a href="https://github.com/salonilakhotia/ChatApp">Github Repo Link</a>
@@ -79,7 +81,7 @@ function Projects(){
                   <span className="card-title" >IMP NOTES</span>
                 </div>
                 <div className="card-content">
-                  <p>React based website which has an option of settingthe note priority wise
+                  <p>React based website which has an option of setting the note priority wise
                   . One can delete or add the notes.</p>
                 </div>
                 <div className="card-action">
@@ -125,11 +127,11 @@ function Projects(){
             <div className=" col-xs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
-                  <img src= {Background} alt="project-image" />
+                  <img src= {Hospital} alt="project-image" />
                   <span className="card-title special-text">HOSPITAL MANAGEMENT</span>
                 </div>
                 <div className="card-content">
-                  <p>Website to manage the internal workings of the hospital and make it easy for doctors, staffs and recieptionist. A team project on MERN and using MySQL.</p>
+                  <p>Website to manage the internal workings of the hospital. A team project on MERN and using MySQL.</p>
                 </div>
                 <div className="card-action">
                   <a href="https://github.com/salonilakhotia/DevelopedWebsite">Github Repo Link</a>
@@ -140,8 +142,8 @@ function Projects(){
             <div className=" col-xs-12 col-sm-6 col-md-3">
               <div className="card">
                 <div className="card-image">
-                  <img src= {Background} alt="project-image" />
-                  <span className="card-title">PORTFOLIO</span>
+                  <img src= {Portfolio} alt="project-image" />
+                  <span className="card-title" style={{color:"white"}}>PORTFOLIO</span>
                 </div>
                 <div className="card-content">
                   <p>My own portfolio website.</p>
@@ -174,8 +176,7 @@ function Projects(){
                   <span className="card-title" alt="project-image" >EXPENSES</span>
                 </div>
                 <div className="card-content">
-                  <p>Flutter and Firebase app which save your expenses based on the data and amount.
-                  This will help you to take your money in account.</p>
+                  <p>Flutter and Firebase app which save your expenses details based on the data and amount.</p>
                 </div>
                 <div className="card-action">
                   <a href="https://github.com/salonilakhotia/expenses">Github Repo Link</a>

@@ -44,21 +44,22 @@ function Home(){
                 <h1 className="Heading">More About Me</h1>
                 <h3 className="subHeading">Hello everyone👩‍💻 :)</h3>
                 <br></br>
-                <p className="desc-aboutme" style ={{fontSize : "20px", fontWeight : "medium", color : "pink"}}>I am pursing B.tech in Computer Science from Indian Institute of Technology, Vadodara. Recently in 3rd year of my graduation.<br></br>
-                I started Flutter and after some time I kinda start loving it. Right now also, many things are left to explore in.<br></br>
+                <p className="desc-aboutme" style ={{fontSize : "20px", fontWeight : "medium", color : "pink"}}>I am pursuing B.Tech in Computer Science from the Indian Institute of Information Technology, Vadodara. Recently in the 3rd year of my graduation.<br></br>
+                I started Flutter and after some time I kinda started loving it. Still also, many things are left to explore.<br></br>
                 I am a front-end developer and love designing things in my own way.
                 <br></br>
                 Here are some of <a href="https://drive.google.com/drive/folders/1fO3A93S7VIOyrgJ0y__YXS-8ex31ZX6V" className="design-drive">my designs</a>!!!
                 <br></br>
-                Still also exploring more and more fields I can. Recently, I am trying my hands on ML.
-                <br></br>I love to dance💃 in my own space but love the art🎨 between all.
+                Still exploring more and more fields. Recently, I am trying my hands on ML.
+                <br></br>I love to dance💃 in my own space but love the art🎨 above all.
                 </p>
                 <br></br><br></br>
                 <h1 className="subHeading" >Available for any collaboration and ideas!!!<br></br>Feel free to contact!!</h1>
             </div>
             <div className="description"> </div>
-            <Footer />
+            
             </div>
+            <Footer />
         </div>
     );
 }

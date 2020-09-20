@@ -63,6 +63,12 @@ body{
     padding-right: 10px;
 }
 
+@media screen and (max-width: 480px) {
+    /* styling for mobile browrser and smaller */
+    .content{
+        font-size: 18px;
+    }
+}
 
 /* 
 .fade2::after{

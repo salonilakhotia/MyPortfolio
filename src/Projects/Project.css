@@ -58,6 +58,9 @@ body{
     margin: 0px;
 }
 
+.card .card-image .special-text{
+    font-size: 28px;
+}
 
 .card-content{
     padding:2px;

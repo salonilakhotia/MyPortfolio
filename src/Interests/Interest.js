@@ -40,25 +40,25 @@ function Interests(){
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Mom} alt="img" />
-              <div class="overlay"><div class="text">First Ever Digital Portrait</div></div>
+              <div className="overlay"><div className="text">First Ever Digital Portrait</div></div>
             </div>
             </Slide>
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={RoseGirl} alt="img" />
-              <div class="overlay"><div class="text">Mind is calm <br></br>when eyes are closed</div></div>
+              <div className="overlay"><div className="text">Mind is calm <br></br>when eyes are closed</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Laptop} alt="img" />
-              <div class="overlay"><div class="text">Can't imagine me without it!!</div></div>
+              <div className="overlay"><div className="text">Can't imagine me without it!!</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Chess} alt="img" />
-              <div class="overlay"><div class="text">Chess Tournament Poster</div></div>
+              <div className="overlay"><div className="text">Chess Tournament Poster</div></div>
             </div>  
             </Slide>
           </div>
@@ -67,25 +67,25 @@ function Interests(){
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Lady} alt="img" />
-              <div class="overlay"><div class="text">Beauty lies in the eyes of beholder!!</div></div>
+              <div className="overlay"><div className="text">Beauty lies in the eyes of beholder!!</div></div>
             </div>
             </Slide>
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Dance} alt="img" />
-              <div class="overlay"><div class="text">Footloose Competition Poster</div></div>
+              <div className="overlay"><div className="text">Footloose Competition Poster</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Butterfly} alt="img" />
-              <div class="overlay"><div class="text">Your Wings already exist <br></br>All you have to do is Fly!!</div></div>
+              <div className="overlay"><div className="text">Your Wings already exist <br></br>All you have to do is Fly!!</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={HarryPotter} alt="img" />
-              <div class="overlay"><div class="text">You are a Wizard, Harry!!</div></div>
+              <div className="overlay"><div className="text">You are a Wizard, Harry!!</div></div>
             </div>
             </Slide>
           </div>
@@ -101,25 +101,25 @@ function Interests(){
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Peacock} alt="img" />
-              <div class="overlay"><div class="text">Stood First in Infotsav IIIT Gwalior</div></div>
+              <div className="overlay"><div className="text">Stood First in Infotsav IIIT Gwalior</div></div>
             </div>
             </Slide>
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Girl} alt="img" />
-              <div class="overlay"><div class="text">Ethics and Color!!<br></br>Great Combo:)</div></div>
+              <div className="overlay"><div className="text">Ethics and Color!!<br></br>Great Combo:)</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Eyes} alt="img" />
-              <div class="overlay"><div class="text">Eyes always told the truth</div></div>
+              <div className="overlay"><div className="text">Eyes always told the truth</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={TwoD} alt="img" />
-              <div class="overlay"><div class="text">Once Visual changes everything!!!</div></div>
+              <div className="overlay"><div className="text">Once Visual changes everything!!!</div></div>
             </div>
             </Slide>
           </div>
@@ -127,7 +127,7 @@ function Interests(){
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Mandala} alt="img" />
-              <div class="overlay"><div class="text">Accuracy is all one needed :)</div></div>
+              <div className="overlay"><div className="text">Accuracy is all one needed :)</div></div>
             </div>
             </Slide>
             <Slide left>
@@ -139,13 +139,13 @@ function Interests(){
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Guitar} alt="img" />
-              <div class="overlay"><div class="text">Music changes all moods</div></div>
+              <div className="overlay"><div className="text">Music changes all moods</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Rangoli} alt="img" />
-              <div class="overlay"><div class="text">Australia Fire</div></div>
+              <div className="overlay"><div className="text">Australia Fire</div></div>
             </div>
             </Slide>
           </div>  
@@ -154,38 +154,37 @@ function Interests(){
 
        <div className="topic">
          <div className="Interest-topic">Series🎥 </div>
-         <p className="Interest-topic content">One of mine favourite series.</p>
+         <p className="Interest-topic content">Some of the series I love.</p>
     {/* yjhd, znmd, tvd, splitsvilla , harrypotter, */}    
           <div className="image">
           <div className="row">
           <Slide left>
           <div className="img-div">
               <img className="interest-img" src={HP} alt="img" />
-              <div class="overlay"><div class="text">Something Evil has Returned to Hogwarts!</div></div>
+              <div className="overlay"><div className="text">Something Evil has Returned to Hogwarts!</div></div>
             </div>
             </Slide>
             <Slide left>
             <div className="img-div">
               <img className="interest-img" src={Originals} alt="img" />
-              <div class="overlay"><div class="text">Always and Forever!!</div></div>
+              <div className="overlay"><div className="text">Always and Forever!!</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={TVD} alt="img" />
-              <div class="overlay"><div class="text">I will always choose you.</div></div>
+              <div className="overlay"><div className="text">I will always choose you.</div></div>
             </div>
             </Slide>
             <Slide right>
             <div className="img-div">
               <img className="interest-img" src={Stranger} alt="img" />
-              <div class="overlay"><div class="text">Friends don't lie!!</div></div>
+              <div className="overlay"><div className="text">Friends don't lie!!</div></div>
             </div>
             </Slide>
           </div>  
           </div>
        </div>
-
         <Footer />
       </div>
     );

@@ -16,8 +16,6 @@
 }
 
 .Image{
-    background-image: url('../Home/photos/IMG20191201174113.jpg');
-    background-size: cover;
     border-radius : 50%;
     border : none;
     height : 400px;

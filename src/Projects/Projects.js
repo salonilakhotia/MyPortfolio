@@ -25,7 +25,6 @@ import Design from './Project Photos/Design.jpg';
 import FirstWeb from './Project Photos/FirstWeb.jpg';
 import Portfolio from './Project Photos/Portfolio.jpg';
 import Hospital from './Project Photos/Hospital.jpg';
-import Background from '../Home/photos/IMG20191201174113.jpg';
 
 
 function Projects(){

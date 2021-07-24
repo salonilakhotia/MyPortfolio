@@ -19,8 +19,8 @@
 
 .Image{
     border : none;
-    height : 600px;
-    width: 600px;
+    height : 500px;
+    width: 500px;
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -29,7 +29,7 @@
 .topic{
     
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     padding: 100px 20px 20px 20px;
     font-weight: 400;
     text-align: center;
@@ -48,12 +48,12 @@
 }
 
 .icon{
-    margin: 40px;
-    height:35px;
-    width: 35px;
+    margin: 30px;
+    height:30px;
+    width: 30px;
 }
 .para{
-    font-size: 25px;
+    font-size: 17px;
     font-weight: medium;
     color: #afb77e;
 }
@@ -61,12 +61,12 @@
 .Heading{
     font-family: 'Spinnaker', sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
 }
 
 .subHeading{
-    font-size: 30px;
+    font-size: 22px;
     color: lightgray;
     font-weight: medium;
 }
@@ -76,7 +76,7 @@
 
 .chat{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: medium;
     color:white;
 }
@@ -84,8 +84,8 @@
     font-size: 48px;
     color: white;
 }
-.spac{
-    padding: 40px;
+.space{
+    padding: 30px;
 }
 .column{
     float: left;
@@ -100,7 +100,7 @@
 }
 .sayHi{
     font-weight: bold;
-    font-size: 40px ;
+    font-size: 30px ;
     text-align: center;
 }
 .right{

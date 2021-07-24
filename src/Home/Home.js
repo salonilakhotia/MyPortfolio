@@ -38,7 +38,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div style={{ padding: "40px" }}></div>
+        {/* <div style={{ padding: "40px" }}></div> */}
 
         <div className="topic">Projects</div>
         <br></br>
@@ -89,7 +89,6 @@ function Home() {
         >
           Say hi, and let's chat! ✌️{" "}
         </h2>
-        <br></br>
         <br></br>
         <p className="chat">
           Shoot me a email at{" "}

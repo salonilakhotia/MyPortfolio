@@ -81,7 +81,7 @@
     color:white;
 }
 .fab{
-    font-size: 48px;
+    font-size: 36px;
     color: white;
 }
 .space{
@@ -107,7 +107,7 @@
     padding-left: 300px;
 }
 .left {
-    padding-left: 100px;
+    padding-left: 10px;
 }
 @media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */

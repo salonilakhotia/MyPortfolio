@@ -29,7 +29,7 @@
 .topic{
     
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     padding: 100px 20px 20px 20px;
     font-weight: 400;
     text-align: center;
@@ -87,15 +87,9 @@
 .spac{
     padding: 40px;
 }
-.Image1{
-    justify-content: center;
-    height: 500px;
-    width: 500px;
-}
 .column{
     float: left;
     width: 50%;
-   
   }
 .row2{
     justify-content: space-around;
@@ -110,10 +104,10 @@
     text-align: center;
 }
 .right{
-    float: right;
+    padding-left: 300px;
 }
 .left {
-    float: left;
+    padding-left: 100px;
 }
 @media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */
@@ -148,7 +142,7 @@
         font-size: 18px;
     }
     .topic{
-        padding-top: 200px;
+        padding-top: 300px;
     }
     .icon{
         width: 5px;
@@ -164,25 +158,28 @@
         font-size: 20px;
     }
     .space{
-        padding : 0px;
+        padding : 30px;
     }
     .column{
         float:none;
+        display: inline;
         margin: 0px;
         align-items: center;
     }
     .Image1{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     .sayHi{
         font-size: 20px;
     }
     .right{
-        float: none;
+       align-self: center;
+       display:contents;
     }
     .left{
-        float:none;
+        align-self: center;
+       display:contents;
     }
 }
 

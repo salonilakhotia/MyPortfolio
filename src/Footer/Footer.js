@@ -6,7 +6,7 @@ function Footer (){
     return(
          <div className="footer"> 
           
-            Designed and Developed by Saloni Lakhotia ❤
+          Designed & &lt; / &gt;  Saloni ❤
           
           </div>    
     );

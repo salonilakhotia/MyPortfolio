@@ -12,10 +12,10 @@ import Guitar from './Interest-Photos/Art/guitar.jpg';
 import Mandala from './Interest-Photos/Art/mandala.jpg';
 import Peacock from './Interest-Photos/Art/peacock.jpg';
 import Rangoli from './Interest-Photos/Art/Rangoli.jpg';
-import Lady from './Interest-Photos/Illustration/lady-01.jpg';
+import Emma from './Interest-Photos/Illustration/Emma.png';
 import Butterfly from './Interest-Photos/Illustration/butterfly-01.jpg';
-import Chess from './Interest-Photos/Illustration/chess-01.jpg';
-import Dance from './Interest-Photos/Illustration/dance-01.jpg';
+import Avatar from './Interest-Photos/Illustration/avatar.png';
+import Flaunting from './Interest-Photos/Illustration/flaunting.png';
 import HarryPotter from './Interest-Photos/Illustration/harrypotter-01.jpg';
 import Mom from './Interest-Photos/Illustration/Mom-01.jpg';
 import RoseGirl from './Interest-Photos/Illustration/roseGirl-01.jpg';
@@ -30,11 +30,12 @@ import Stranger from './Interest-Photos/Series/strangerThings-01.jpg';
 function Interests(){
     return(
       <div>
+      <div style = {{padding: "30px"}}></div>
       <Header />
-        <div className="topic">
-         <div className="Interest-topic">Illustration <span role="img">💖</span> </div>
-         <p className="Interest-topic content"> Creativity makes the world go round and round and round.</p>
-        
+       
+         <div className="topic">Illustration <span role="img">💖</span> </div>
+         <p className="content"> Creativity makes the world go round and round and round.</p>
+
           
           <div className="row">
             <Slide left>
@@ -57,8 +58,8 @@ function Interests(){
             </Slide>
             <Slide right>
             <div className="img-div">
-              <img className="interest-img" src={Chess} alt="img" />
-              <div className="overlay"><div className="text">Chess Tournament Poster</div></div>
+              <img className="interest-img" src={Avatar} alt="img" />
+              <div className="overlay"><div className="text">Tried a Horror Maid Avatar </div></div>
             </div>  
             </Slide>
           </div>
@@ -66,14 +67,14 @@ function Interests(){
           <div className="row">
             <Slide left>
             <div className="img-div">
-              <img className="interest-img" src={Lady} alt="img" />
-              <div className="overlay"><div className="text">Beauty lies in the eyes of beholder!!</div></div>
+              <img className="interest-img" src={Emma} alt="img" />
+              <div className="overlay"><div className="text">The lesser you reveal, more people can wonder !</div></div>
             </div>
             </Slide>
             <Slide left>
             <div className="img-div">
-              <img className="interest-img" src={Dance} alt="img" />
-              <div className="overlay"><div className="text">Footloose Competition Poster</div></div>
+              <img className="interest-img" src={Flaunting} alt="img" />
+              <div className="overlay"><div className="text">A Girl has every shade of color in herself.</div></div>
             </div>
             </Slide>
             <Slide right>
@@ -89,12 +90,11 @@ function Interests(){
             </div>
             </Slide>
           </div>
-          
-       </div>
+     
 
-       <div className="topic">
-         <div className="Interest-topic">Art👩‍🎨 </div>
-         <p className="Interest-topic content">Art enables us to find ourselves and lose ourselves at the same time.</p>
+       
+         <div className="topic">Art👩‍🎨 </div>
+         <p className="content">Art enables us to find ourselves and lose ourselves at the same time.</p>
         
           <div className="image">
           <div className="row">
@@ -150,11 +150,9 @@ function Interests(){
             </Slide>
           </div>  
           </div>
-       </div>
-
-       <div className="topic">
-         <div className="Interest-topic">Series🎥 </div>
-         <p className="Interest-topic content">Some of the series I love.</p>
+      
+         <div className="topic">Series🎥 </div>
+         <p className="content">Some of the series I love.</p>
     {/* yjhd, znmd, tvd, splitsvilla , harrypotter, */}    
           <div className="image">
           <div className="row">
@@ -184,7 +182,7 @@ function Interests(){
             </Slide>
           </div>  
           </div>
-       </div>
+
         <Footer />
       </div>
     );

@@ -4,19 +4,22 @@ body{
 }
 
 .topic{
-    font-family: 'Sahitya', serif;
+    font-family: 'Spinnaker', sans-serif;
     color: white;
     font-size: 35px;
-    padding: 50px;
+    padding: 100px 20px 20px 20px;
+    font-weight: 500;
+    text-align: center;
 }   
 
-.Interest-topic{
-   text-align: center;
-}
+
 
 .content{
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 23px;
     padding-left: 30px;
+    color: white;
+    text-align: center;
 }
 
 .row{
@@ -25,8 +28,8 @@ body{
 
 
 .interest-img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding: 10px;
 }
 .img-div{
@@ -52,7 +55,7 @@ body{
   } 
 
   .text {
-    font-family: 'Sahitya', serif;
+    font-family: 'Spinnaker', sans-serif;
     font-weight: bolder;
     letter-spacing: 1px;
     color: white;

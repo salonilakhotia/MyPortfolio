@@ -1,69 +1,135 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import Background from './photos/Me.jpg';
-import facebook from "./photos/facebook.svg";
-import github from "./photos/github.svg";
-import instagram from "./photos/instagram.svg";
-import linkedin from "./photos/linkedin.svg";
-import Footer from '../Footer/Footer';
-import Header from '../NavBar/Header';
-import './home.css';
+import React from "react";
+import Background from "./photos/profile-02.png";
+import Project1 from "./photos/P1.png";
+import Project2 from "./photos/P2.png";
+import Project3 from "./photos/P3.png";
+import Project4 from "./photos/P4.png";
+import Footer from "../Footer/Footer";
+import Header from "../NavBar/Header";
+import "./home.css";
 
-function Home(){
-    return(
-        <div className="home">
-        <Header />
-        <div>
-            <div className="outer-box row">
-                <div className="col">
-                <div className="Image"><img className = "Image" src={Background} /></div>
-                </div>
-                <div className="col">
-                <div  className="intro">
-                    <Fade bottom big cascade><h1 className="Heading">Saloni Lakhotia</h1></Fade>
-                    {/* <div className="color-animation1 Heading">Saloni </div>
-                    <div className="color-animation2 Heading">Lakhotia</div> */}
-                   
-                    <br></br>
-                    <h2 className="subHeading">B. Tech. Student,  IIIT Vadodara</h2>
-                    <br></br>
-                    <p style ={{fontSize : "20px", fontWeight : "medium", color : "pink"}}>I'm an UI/UX Designer , Flutter Lover and Web Developer.
-                    <br></br>Exploring new fields 💯✨</p>    
-                </div>
-                 <div className="icons">
-                    <a href="https://github.com/salonilakhotia"><img className="icon" src={github} alt="icon"></img></a>
-                    <a href="https://www.instagram.com/saloni_lakhotia_/"><img className="icon" src={instagram} alt="icon"></img></a>
-                    <a href="https://www.facebook.com/saloni.lakhotia.242"><img className="icon" src={facebook} alt="icon"></img></a>
-                    <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175"><img className="icon" src={linkedin} alt="icon"></img></a>
-                 </div>
-                </div>
+function Home() {
+  return (
+    <div className="home">
+    {/* <div style = {{padding: "30px"}}></div> */}
+      <Header />
+      <div>
+        <div className="outer-box row">
+          <div className="col">
+            <div className="Image">
+              <img className="Image" src={Background} />
             </div>
-            <div className="description"> </div>
-            <div className="About-Me">
-                <h1 className="Heading">More About Me</h1>
-                <h3 className="subHeading">Hello everyone👩‍💻 :)</h3>
-                <br></br>
-                <p className="desc-aboutme" style ={{fontSize : "20px", fontWeight : "medium", color : "pink"}}>I am pursuing B.Tech in Computer Science from the Indian Institute of Information Technology, Vadodara. Recently in the 3rd year of my graduation.<br></br>
-                I started Flutter and after some time I kinda started loving it. Still also, many things are left to explore.<br></br>
-                I am a front-end developer and love designing things in my own way.
-                <br></br>
-                Here are some of <a href="https://drive.google.com/drive/folders/1fO3A93S7VIOyrgJ0y__YXS-8ex31ZX6V" className="design-drive">my designs</a>!!!
-                <br></br>
-                Still exploring more and more fields. Recently, I am trying my hands on ML.
-                <br></br>I love to dance💃 in my own space but love the art🎨 above all.
-                </p>
-                <br></br><br></br>
-                <h1 className="subHeading" >Available for any collaboration and ideas!!!<br></br>Feel free to contact!!</h1>
+          </div>
+          <div className="col">
+            <div className="intro">
+            <div style = {{padding: "30px"}}></div>
+              
+                <h1 className="Heading">Saloni Lakhotia</h1>
+              <br></br>
+              <h2 className="subHeading">Product Designer & Tech-Enthusiast</h2>
+              <br></br>
+              <p className="para">
+                Enthusiastic, creative designer and developer with solid problem
+                solving skills. I am pursuing B.Tech in Computer Science from
+                the IIIT, Vadodara. <br></br>I like
+                to explore new things and meet new people. Apart from this, I
+                like to dance 💃 in my own space but the love for art🎨 is above all.
+              </p>
             </div>
-            <div className="description"> </div>
-            
-            </div>
-            <Footer />
+          </div>
         </div>
-    );
+        <div style = {{padding: "40px"}}></div>
+
+
+        <div className="topic">Projects</div>
+        <br></br>
+ 
+        <div className = "space"></div>
+
+        <div className="row2">
+            <div className = "column"> 
+                <div className="PImage">
+                <div  ><a href = " "><img className="Image1" src={Project1} /></a></div>
+                </div>
+            </div>
+            
+            <div className = "column"> 
+                <div className="PImage">
+                <div ><a href = " "><img className="Image1" src={Project2} /></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div className="row2">
+            <div className = "column"> 
+                <div className="PImage">
+                <a href = " "><img className="Image1" src={Project3} /></a>
+                </div>
+            </div>
+            
+            <div className = "column"> 
+                <div className="PImage">
+                <a href = " "><img className="Image1" src={Project4} /></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div className = "space"></div>
+        <div className = "space"></div>
+
+        <h2 className="subHeading" style={{fontWeight: "bold", fontSize: "40px" ,textAlign: "center" }}>
+          Say hi, and let's chat! ✌️{" "}
+        </h2>
+        <br></br><br></br>
+        <p className="chat">
+          Shoot me a email at{" "}
+          <span style={{ color: "#afb77e" }}>salonilakhotia242@gmail.com </span> or
+          find me at
+        </p>
+
+        <div className="icons">
+          <div className="icon">
+            <a href="https://github.com/salonilakhotia">
+              <i
+                className="fab fa-github"
+              ></i>
+            </a>
+          </div>
+          <div className="icon">
+            <a href="https://www.behance.net/salonilakhotia">
+              <i
+                className="fab fa-behance"
+                
+              ></i>
+            </a>
+          </div>
+          <div className="icon">
+            <a href="https://dribbble.com/SALONI242">
+              <i
+                className="fab fa-dribbble"
+                
+              ></i>
+            </a>
+          </div>
+          <div className="icon">
+            <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175">
+              <i
+                className="fab fa-linkedin-in"
+                
+              ></i>
+            </a>
+          </div>
+        </div>
+
+        <div style = {{padding: "40px"}}></div>
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
 
 /* 
 

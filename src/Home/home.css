@@ -1,106 +1,118 @@
 .home{
     background-size: cover;
     background-color: black;
-    font-family: 'Sahitya', serif;
+    font-family: 'Spinnaker', sans-serif;
     width: 100%;
     position: absolute;
 }
 
 .outer-box{
-    padding: 80px 140px 80px 140px;  
+    
+    padding: 40px 140px 80px 140px;  
 }
 
 .col{
+    
    height : 460px;
    width: 460px;  
 }
 
 .Image{
-    border-radius : 50%;
     border : none;
-    height : 400px;
-    width: 400px;
+    height : 600px;
+    width: 600px;
     display: block;
     margin: auto;
     margin-top: 30px;
 }
 
+.topic{
+    
+    color: white;
+    font-size: 35px;
+    padding: 100px 20px 20px 20px;
+    font-weight: 400;
+    text-align: center;
+}   
+
 .intro{
     padding-top: 90px;
     text-align: left;
-    color: indigo;
+    color: lightgray;
 }
 
 .icons{
     display: flex;
     justify-content: center;
-    padding: 20px 50px 20px 50px;
+    
 }
 
 .icon{
-    margin-right: 30px;
-    height:45px;
-    width: 45px;
+    margin: 40px;
+    height:35px;
+    width: 35px;
 }
-
-.description{
-    padding: 40px;
-    font-size : 20px;
-    color: pink;
+.para{
+    font-size: 25px;
     font-weight: medium;
+    color: #afb77e;
 }
 
 .Heading{
-    font-weight: 1000;
-    font-size: 80px;
+    font-family: 'Spinnaker', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
     color: white;
 }
 
 .subHeading{
-    font-size: 40px;
-    color: indigo;
-    font-weight: bolder;
+    font-size: 30px;
+    color: lightgray;
+    font-weight: medium;
 }
 .About-Me{
     text-align: center;
 }
 
-/* 
-.color-animation1{
-    animation : color 1s infinite;  
+.chat{
+    text-align: center;
+    font-size: 25px;
+    font-weight: medium;
+    color:white;
 }
-
-@keyframes color{
-    0%{
-        color: yellow;
-    }
-    50%{
-        color: blue;
-    }
-    100%{
-        color: yellow;
-    }
+.fab{
+    font-size: 48px;
+    color: white;
 }
-
-.color-animation2{
-    animation : color2 1s infinite;  
+.spac{
+    padding: 40px;
 }
+.Image1{
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+.column{
+    float: left;
+    width: 50%;
+   
+  }
+.row2{
+    justify-content: space-around;
+  }
 
-@keyframes color2{
-    0%{
-        color: blue;
-    }
-    50%{
-        color: yellow;
-    }
-    100%{
-        color: blue;
-    }
-} */
+.PImage{
+    margin: 50px; 
+}
 
 
 @media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */
+    .home{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
     .outer-box{
         width: 100%;
         padding : 40px;
@@ -114,23 +126,45 @@
         width: 380px;
         height: 360px;
     }
+    .intro{
+        padding-top: 0;
+    }
     .Heading{
         font-size: 40px;
     }
     .subHeading{
         font-size: 30px;
     }
-    .icons{
-        padding-left: 100px;
-        text-shadow: 2px 2px white;
-        
-        
+    .para{
+        font-size: 18px;
+    }
+    .topic{
+        padding-top: 200px;
+    }
+    .icon{
+        width: 5px;
+    }
+    .fab{
+       font-size: 36px; 
     }
     .description{
         padding: 50px;
     }
-    .About-Me{
-        padding: 40px;
+    .chat{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .space{
+        padding : 0px;
+    }
+    .column{
+        float:none;
+        margin: 0px;
+        align-items: center;
+    }
+    .Image1{
+        width: 200px;
+        height: 200px;
     }
 }
 

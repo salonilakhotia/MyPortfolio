@@ -10,9 +10,9 @@ const SideDrawer = props => {
     return(
         <nav className={drawerClasses} >
             <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/Projects">Projects</NavLink></li>
-                <li><NavLink to="/Interests">Interests</NavLink></li>
+            <li><NavLink to="/" className = "link active" >Home</NavLink></li>
+                        <li><a href="https://drive.google.com/drive/u/0/folders/1Z0yIy02gTHdFH7HGX_UsmiWyDga7DdZO" className = "link" >Resume</a></li>
+                        <li><NavLink to="/Interests" className = "link" >Gallery</NavLink></li>
             </ul>
         </nav>
     );

@@ -16,8 +16,8 @@ const Navbar = props => (
                 <div className="bar_navigation-items">
                     <ul>
                         <li><NavLink to="/" className = "link active" >Home</NavLink></li>
-                        <li><NavLink to="/Projects" className = "link" >Projects</NavLink></li>
-                        <li><NavLink to="/Interests" className = "link" >Interests</NavLink></li>
+                        <li><a href="https://drive.google.com/drive/u/0/folders/1Z0yIy02gTHdFH7HGX_UsmiWyDga7DdZO" className = "link" >Resume</a></li>
+                        <li><NavLink to="/Interests" className = "link" >Gallery</NavLink></li>
                     </ul>
                 </div>
             </nav>

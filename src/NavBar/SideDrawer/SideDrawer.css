@@ -37,7 +37,7 @@
 
 .side-drawer a:hover,
 .side-drawer a:active{
-    color: pink;
+    color: #afb77e;
     opacity: .7;
     background-color: indigo;
 }

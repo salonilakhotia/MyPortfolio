@@ -5,7 +5,7 @@
     left:0;
     height:56px;
     z-index:10;
-    font-family: 'Sahitya', serif;
+    font-family: 'Verdana', serif;
 }
 
 
@@ -14,7 +14,7 @@
     display: flex;
     height: 100%;
     align-items:center;
-    padding:0 1rem;
+    padding:4rem 3rem;
 }
 
 .spacer{
@@ -34,26 +34,26 @@
 }
 
 .bar_navigation-items li{
-    padding:0 0.5rem;
+    padding:0 1.5rem;
 }
 
 
 .link{
-    font-size: 22px;
+    font-size: 24px;
     transition: all ease;
 }
 
 .link:hover{
     text-decoration: none;
-    color :  pink;
-    border-bottom: 1px solid pink;
+    color: #afb77e;
+    border-bottom: 1px solid #afb77e;
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active{
-    color:pink;
+    color:#afb77e;
 }
 
 @media (max-width:768px){

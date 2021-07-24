@@ -48,28 +48,28 @@ function Home() {
 
         <div className="row2">
             <div className = "column"> 
-                <div className="PImage">
-                <div  ><a href = " "><img className="Image1" src={Project1} /></a></div>
+                <div className="PImage right">
+                <a href = " "><img className="Image" src={Project1} /></a>
                 </div>
             </div>
             
             <div className = "column"> 
-                <div className="PImage">
-                <div ><a href = " "><img className="Image1" src={Project2} /></a></div>
+                <div className="PImage left">
+                <a href = " "><img className="Image" src={Project2} /></a>
                 </div>
             </div>
         </div>
 
         <div className="row2">
             <div className = "column"> 
-                <div className="PImage">
-                <a href = " "><img className="Image1" src={Project3} /></a>
+                <div className="PImage right">
+                <a href = " "><img className="Image" src={Project3} /></a>
                 </div>
             </div>
             
             <div className = "column"> 
-                <div className="PImage">
-                <a href = " "><img className="Image1" src={Project4} /></a>
+                <div className="PImage left">
+                <a href = " "><img className="Image" src={Project4} /></a>
                 </div>
             </div>
         </div>
@@ -131,23 +131,3 @@ function Home() {
 
 export default Home;
 
-/* 
-
-<div className="home">
-          <div className="Hometext">
-              <img className = "Image" src={Background} />
-              <div className="home-text name">Saloni Lakhotia</div><br></br>
-              <div className="All_Icons">
-              <ul>
-                <li><a href="https://github.com/salonilakhotia"><img className="icon" src={github} alt="icon"></img></a></li>
-                <li><a href="https://www.instagram.com/saloni_lakhotia_/"><img className="icon" src={instagram} alt="icon"></img></a></li>
-                <li><a href="https://www.facebook.com/saloni.lakhotia.242"><img className="icon" src={facebook} alt="icon"></img></a></li>
-                <li><a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175"><img className="icon" src={linkedin} alt="icon"></img></a></li>
-              </ul>
-              </div> //all_icons
-          </div>
-          <div className= "home-text text2" >Hey!!! welcome to home page!!!.Hey!!! welcome to home page!!!.</div>
-        </div>
-        <Footer />
-</div>
-*/

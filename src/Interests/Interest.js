@@ -30,7 +30,7 @@ import Stranger from './Interest-Photos/Series/strangerThings-01.jpg';
 function Interests(){
     return(
       <div>
-      <div style = {{padding: "30px"}}></div>
+      {/* <div style = {{padding: "30px"}}></div> */}
       <Header />
        
          <div className="topic">Illustration <span role="img">💖</span> </div>

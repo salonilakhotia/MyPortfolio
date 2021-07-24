@@ -104,8 +104,17 @@
 .PImage{
     margin: 50px; 
 }
-
-
+.sayHi{
+    font-weight: bold;
+    font-size: 40px ;
+    text-align: center;
+}
+.right{
+    float: right;
+}
+.left {
+    float: left;
+}
 @media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */
     .home{
@@ -163,8 +172,17 @@
         align-items: center;
     }
     .Image1{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
+    }
+    .sayHi{
+        font-size: 20px;
+    }
+    .right{
+        float: none;
+    }
+    .left{
+        float:none;
     }
 }
 

@@ -63,7 +63,7 @@ function Home() {
         <div className="row2">
           <div className="column">
             <div className="PImage right">
-              <figure><a href="https://medium.com/@salonilakhotia242/food-app-design-6d96c4e3f338">
+              <figure><a href="https://medium.com/@salonilakhotia242/food-app-8eefcb9d1001">
                 <img className="Image" src={Project3} />
               </a></figure>
             </div>
@@ -94,22 +94,22 @@ function Home() {
         <div className="icons">
           <div className="icon">
             <a href="https://github.com/salonilakhotia">
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" aria-hidden= "true"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://www.behance.net/salonilakhotia">
-              <i className="fab fa-behance"></i>
+              <i className="fab fa-behance" aria-hidden= "true"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://dribbble.com/SALONI242">
-              <i className="fab fa-dribbble"></i>
+              <i className="fab fa-dribbble" aria-hidden= "true"></i>
             </a>
           </div>
           <div className="icon">
-            <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175">
-              <i className="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a71750" >
+              <i className="fab fa-linkedin-in"  aria-hidden= "true"></i>
             </a>
           </div>
         </div>

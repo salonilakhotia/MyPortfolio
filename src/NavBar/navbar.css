@@ -72,8 +72,13 @@
     left: 5%;   
 }
 
-@media (min-width: 569px) {
+@media screen and (max-width: 480px) {
     .brand-logo{
-        right: 20%;
-    }
+        left: 30%;
+        width: 0px;
+    } 
+    .LOGO{
+        width: 170px;
+        height: 100%;
+    }  
 }

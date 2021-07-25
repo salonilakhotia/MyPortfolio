@@ -6,7 +6,7 @@ function Footer (){
     return(
          <div className="footer"> 
           
-          Designed & &lt; / &gt;  Saloni ❤
+          Designed & &lt; / &gt; by Saloni ❤
           
           </div>    
     );

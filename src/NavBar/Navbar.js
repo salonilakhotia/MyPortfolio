@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './SideDrawer/DrawerToggleButton';
 import './navbar.css';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
-
+import Saloni from "./Saloni.png";
 
 const Navbar = props => (
         <header className="bar">
@@ -11,7 +11,7 @@ const Navbar = props => (
                 <div class="toolbar__toggle-button">
                     <DrawerToggleButton click={props.drawerClickHandler} />
                 </div>
-                <div className="brand-logo navbar-text" >SL</div>
+                <div className="brand-logo" ><img className="LOGO" src={Saloni}></img></div>
                 <div className="spacer" />
                 <div className="bar_navigation-items">
                     <ul>

@@ -38,27 +38,24 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* <div style={{ padding: "40px" }}></div> */}
+    
 
         <div className="topic">Projects</div>
         <br></br>
-
-        <div className="space"></div>
-
         <div className="row2">
           <div className="column">
             <div className="PImage right">
-              <a href=" ">
+              <figure><a href="https://medium.com/@salonilakhotia242/pay1-5f27907ae74">
                 <img className="Image" src={Project1} />
-              </a>
+              </a></figure>
             </div>
           </div>
 
           <div className="column">
             <div className="PImage left">
-              <a href=" ">
+              <figure><a href="https://medium.com/@salonilakhotia242/lead-management-design-3b0b33cba93a">
                 <img className="Image" src={Project2} />
-              </a>
+              </a></figure>
             </div>
           </div>
         </div>
@@ -66,29 +63,27 @@ function Home() {
         <div className="row2">
           <div className="column">
             <div className="PImage right">
-              <a href=" ">
+              <figure><a href="https://medium.com/@salonilakhotia242/food-app-design-6d96c4e3f338">
                 <img className="Image" src={Project3} />
-              </a>
+              </a></figure>
             </div>
           </div>
 
           <div className="column">
             <div className="PImage left">
-              <a href=" ">
+            <figure><a href="https://medium.com/@salonilakhotia242/alarm-clock-56c93a30fef7">
                 <img className="Image" src={Project4} />
-              </a>
+              </a></figure>
             </div>
           </div>
         </div>
 
-        <div className="space"></div>
-        <div className="space"></div>
-
-        <h2
+    
+        <div
           className="subHeading sayHi"
         >
           Say hi, and let's chat! ✌️{" "}
-        </h2>
+        </div>
         <br></br>
         <p className="chat">
           Shoot me a email at{" "}
@@ -119,7 +114,6 @@ function Home() {
           </div>
         </div>
 
-        <div style={{ padding: "40px" }}></div>
       </div>
       <Footer />
     </div>

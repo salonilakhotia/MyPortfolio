@@ -104,12 +104,12 @@ function Home() {
           </div>
           <div className="icon">
             <a href="https://dribbble.com/SALONI242">
-              <i className="fab fa-dribbble" aria-hidden= "true"></i>
+              <i className="fab fa-dribbble"  aria-hidden= "true"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a71750" >
-              <i className="fab fa-linkedin-in"  aria-hidden= "true"></i>
+              <i className="fab fa-linkedin-in" aria-hidden= "true"></i>
             </a>
           </div>
         </div>

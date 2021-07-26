@@ -49,7 +49,7 @@
 
 .icon{
     margin: 30px;
-    height:30px;
+    height: 30px;
     width: 30px;
 }
 .para{
@@ -81,7 +81,11 @@
     color:white;
 }
 .fab{
-    font-size: 36px;
+    font-size: 28px;
+    color: white;
+}
+.fas{
+    font-size: 28px;
     color: white;
 }
 
@@ -116,7 +120,21 @@
 .row2 figure:hover img {
 	opacity: .5;
 }
-
+.fa-github:hover{
+    color: #afb77e;
+}
+.fa-linkedin-in:hover{
+    color:#afb77e;
+}
+.fa-envelope:hover{
+    color:#afb77e;
+}
+.fa-behance:hover{
+    color:#afb77e;
+}
+.fa-dribbble:hover{
+    color:#afb77e;
+}
 
 @media screen and (max-width: 480px) {
     /* styling for mobile browrser and smaller */
@@ -157,9 +175,13 @@
         width: 5px;
     }
     .fab{
-       font-size: 36px; 
+       font-size: 28px; 
        color: white;
     }
+    .fas{
+        font-size: 28px; 
+        color: white;
+     }
     .description{
         padding: 50px;
     }

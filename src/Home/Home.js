@@ -84,14 +84,19 @@ function Home() {
         >
           Say hi, and let's chat! ✌️{" "}
         </div>
-        <br></br>
-        <p className="chat">
+        
+        {/* <p className="chat">
           Shoot me a email at{" "}
           <span style={{ color: "#afb77e" }}>salonilakhotia242@gmail.com </span>{" "}
           or find me at
-        </p>
+        </p> */}
 
         <div className="icons">
+          <div className="icon">
+              <a href="mailto:salonilakhotia242@gmail.com">
+                <i className = "fas fa-envelope"></i>
+              </a>
+            </div>
           <div className="icon">
             <a href="https://github.com/salonilakhotia">
               <i className="fab fa-github"></i>
@@ -113,7 +118,7 @@ function Home() {
             </a>
           </div>
         </div>
-
+<br></br>
       </div>
       <Footer />
     </div>

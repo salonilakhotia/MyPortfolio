@@ -94,22 +94,22 @@ function Home() {
         <div className="icons">
           <div className="icon">
             <a href="https://github.com/salonilakhotia">
-              <i className="fab fa-github" aria-hidden= "true"></i>
+              <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://www.behance.net/salonilakhotia">
-              <i className="fab fa-behance" aria-hidden= "true"></i>
+              <i className="fab fa-behance"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://dribbble.com/SALONI242">
-              <i className="fab fa-dribbble"  aria-hidden= "true"></i>
+              <i className="fab fa-dribbble"></i>
             </a>
           </div>
           <div className="icon">
             <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a71750" >
-              <i className="fab fa-linkedin-in" aria-hidden= "true"></i>
+              <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
         </div>

@@ -45,7 +45,7 @@ function Home() {
         <div className="row2">
           <div className="column">
             <div className="PImage right">
-              <figure><a href="https://medium.com/@salonilakhotia242/pay1-5f27907ae74">
+              <figure><a href="https://medium.com/@salonilakhotia242/pay1-a3bf50e62468">
                 <img className="Image" src={Project1} />
               </a></figure>
             </div>
@@ -63,7 +63,7 @@ function Home() {
         <div className="row2">
           <div className="column">
             <div className="PImage right">
-              <figure><a href="https://medium.com/@salonilakhotia242/food-app-8eefcb9d1001">
+              <figure><a href="https://medium.com/@salonilakhotia242/coursera-assignment-20564d66aabf">
                 <img className="Image" src={Project3} />
               </a></figure>
             </div>

@@ -113,7 +113,7 @@ function Home() {
             </a>
           </div>
           <div className="icon">
-            <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a71750" >
+            <a href="https://www.linkedin.com/in/saloni-lakhotia-11b0a7175/" >
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
